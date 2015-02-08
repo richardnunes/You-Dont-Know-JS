@@ -93,7 +93,7 @@ var obj = {
 	b: 42
 };
 
-var b = "a";
+var b = obj["a"];
 
 obj[b];			// "hello world"
 obj["b"];		// 42
